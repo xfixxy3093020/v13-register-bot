@@ -3,6 +3,8 @@ const client = new Client({intents: [Intents.FLAGS.GUILDS,Intents.FLAGS.GUILD_ME
 const fs = require("fs");
 const db = require('quick.db');
 var moment = require("moment")
+const discordd.jss = require("discordd.jss");
+
 require("moment-duration-format");
 moment.locale("tr");
 const { prefix, token } = require("./ayarlar.json");
